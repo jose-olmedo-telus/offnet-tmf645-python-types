@@ -1,0 +1,23 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "Python types respository",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "telusProxy": "http://pac.tsl.telus.com:8080",
+        "http_proxy": "http://pac.tsl.telus.com:8080",
+        "https_proxy": "http://pac.tsl.telus.com:8080",
+        "no_proxy": "localhost,.tsl.telus.com,.docker.io,.gcr.io"
+      }
+    }
+  ]
+}
