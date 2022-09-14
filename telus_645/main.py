@@ -1,4 +1,4 @@
-from src.models.pending_job.place import Place
+from telus_645.models.pending_job.place import Place
 
 if __name__ == "__main__":
     test_obj = {"id":"test_id", "role":"place"}

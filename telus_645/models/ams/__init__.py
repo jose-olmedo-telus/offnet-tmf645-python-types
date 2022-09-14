@@ -1,0 +1,1 @@
+from telus_645.models.ams.address_detail_model import AddressDetailModel

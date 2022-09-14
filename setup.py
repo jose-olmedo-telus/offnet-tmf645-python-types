@@ -6,7 +6,7 @@ VERSION = "0.0.1"
 DESCRIPTION = "A BASIC PACKAGES THAT CONTAINS TMF 645 MODELS"
 
 setup(
-    name='telus-645-types',
+    name='telus_645',
     version=VERSION,
     description=DESCRIPTION,
     url='https://github.com/jose-olmedo-telus/offnet-tmf645-python-types',

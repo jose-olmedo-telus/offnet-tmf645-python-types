@@ -3,13 +3,13 @@ from typing import Any, List, Dict, Optional, Literal
 from fastapi_camelcase import CamelModel
 from pydantic import Field
 
-from src.models.ams.coordinate import Coordinate
-from src.models.ams.e911_address import E911Address
-from src.models.ams.fms_address import FmsAddress
-from src.models.ams.reference_id import ReferenceId
-from src.models.ams.reference_ids import ReferenceIds
-from src.models.ams.zone_info_item import ZoneInfoItem
-from src.models.pending_job.place import PlaceAMS
+from telus_645.models.ams.coordinate import Coordinate
+from telus_645.models.ams.e911_address import E911Address
+from telus_645.models.ams.fms_address import FmsAddress
+from telus_645.models.ams.reference_id import ReferenceId
+from telus_645.models.ams.reference_ids import ReferenceIds
+from telus_645.models.ams.zone_info_item import ZoneInfoItem
+from telus_645.models.pending_job.place import PlaceAMS
 
 
 class AddressDetailModel(CamelModel):

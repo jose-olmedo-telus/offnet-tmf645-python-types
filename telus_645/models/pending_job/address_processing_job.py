@@ -4,8 +4,8 @@ from typing import Union
 
 from fastapi_camelcase import CamelModel
 
-from src.models.pending_job.place import Place, PlaceAMS
-from src.models.pending_job.service_qualification import ServiceSpecification
+from telus_645.models.pending_job.place import Place, PlaceAMS
+from telus_645.models.pending_job.service_qualification import ServiceSpecification
 
 
 class AddressProcessingJob(CamelModel):

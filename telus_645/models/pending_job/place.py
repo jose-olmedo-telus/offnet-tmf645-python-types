@@ -4,7 +4,7 @@ from typing import Optional, Literal
 
 from fastapi_camelcase import CamelModel
 from pydantic import Field
-from src.models.ams.coordinate import Coordinate
+from telus_645.models.ams.coordinate import Coordinate
 
 
 class Place(CamelModel):
