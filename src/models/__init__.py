@@ -1,2 +1,1 @@
-from src.models.ams import *
-from src.models.pending_job import *
+from src.models import ams, pending_job 
