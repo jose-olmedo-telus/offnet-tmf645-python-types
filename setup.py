@@ -13,8 +13,8 @@ setup(
     author='José Alejandro Olmedo',
     packages=find_packages(),
     install_requires=[
-        'fastapi-camelcase==1.0.5',
-        'pydantic==1.10.0'
+        'fastapi-camelcase',
+        'pydantic'
     ],
     include_package_data=True,
 )
